@@ -51,7 +51,7 @@ I found these handy key fobs on Thingiverse, which I used to represent control t
 - [volume Down](https://www.thingiverse.com/thing:2852051)
 - [Stop](https://www.thingiverse.com/thing:2852109)
 
-50% was a good size for these prints. 
+Scaling to 50% was a good size for these prints. The NFC stickers were attached to these, for use as controls. 
 
 ## Music
 
