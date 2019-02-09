@@ -38,8 +38,8 @@ Total cost: ~$100
 
 I designed the outer case and trim using Tinkercad, and printed in two colors. You can find all those parts here:
 
-- [Back](case/01%20-%20grey%20-%20back.stl)
-- [Front](case/02%20-%20grey%20-%20front.stl)
+- [Back case](case/01%20-%20grey%20-%20back.stl)
+- [Front case](case/02%20-%20grey%20-%20front.stl)
 - [Trim, grey](case/03%20-%20grey%20-%20decoration.stl)
 - [Trim, red](case/04%20-%20red%20-%20decoration.stl)
 
@@ -75,9 +75,23 @@ Once the headers are soldered to the NFC shield, you can use the [nfcWriter](htt
 
 I used control tags for volume up, volume down, and stop. For these I selected `97`, `98`, and `99` as control codes, which were written to NFC tag stickers, and I attached those to little key fobs which I printed. 
 
-## Circuit diagram
+## Circuit
 
-TBD
+Note the illuminated pushbutton is described by the LED and pusbutton parts. Also only one speaker is shown, but simply connect two speakers in the same way.
+
+![Circuit](media/circuit.jpg "Final circuit diagram")
+
+| Pin | Component |
+|-----|-----------|
+| 2 | pn532 irq |
+| 3 | pn532 reset|
+| 5 | button |
+| 7 | led |
+| 10 | dfplayer rx |
+| 11 | dfplayer tx |
+| 3V | button |
+| 5V | dfplayer |
+| GND | dfplayer, button, led |
 
 ## Assembly
 
