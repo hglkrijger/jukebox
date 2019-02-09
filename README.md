@@ -71,7 +71,7 @@ Note the root folder is a 2-digit number, and the files are all 4-digit zero-pre
 
 ## Writing tags and cards
 
-Once the headers are soldered to the NFC shield, you can use the [nfcWriter](src\jukebox.ino) to write an integer to each card. This integer must map to the file number of the song you want to select with that card. In other words, write `4` to the card to play `01\0004.mp3`. 
+Once the headers are soldered to the NFC shield, you can use the [nfcWriter](https://github.com/hglkrijger/jukebox/blob/master/src/nfcWriter.ino) to write an integer to each card. This integer must map to the file number of the song you want to select with that card. In other words, write `4` to the card to play `01\0004.mp3`. 
 
 I used control tags for volume up, volume down, and stop. For these I selected `97`, `98`, and `99` as control codes, which were written to NFC tag stickers, and I attached those to little key fobs which I printed. 
 
